@@ -22,6 +22,7 @@ from src import views
 router = routers.DefaultRouter()
 router.register(r'course', views.CourseViewSet)
 router.register(r'content', views.ContentViewSet)
+router.register(r'days', views.DayViewSet)
 
 
 urlpatterns = [
